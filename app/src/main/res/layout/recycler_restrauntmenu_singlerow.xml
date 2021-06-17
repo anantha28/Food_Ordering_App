@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Acts as recyler_dashboard_single_row.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:id="@+id/foodNumber"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMenuRecyclerRowItem"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:text="Food name"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cost of food"
+        android:drawableLeft="@drawable/ic_dollar"
+        android:id="@+id/costOfFood"
+        android:layout_below="@+id/txtMenuRecyclerRowItem"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="120dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="300dp"
+        android:id="@+id/btnAdd"
+        android:text="Add"
+        android:background="#e53935"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

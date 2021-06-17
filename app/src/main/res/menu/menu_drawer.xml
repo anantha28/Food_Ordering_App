@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/Dashboard"
+        android:id="@+id/dashboard"/>
+    <item android:title="@string/myprofile"
+        android:id="@+id/profile"/>
+    <item android:title="@string/favourites"
+        android:id="@+id/favourites"/>
+    <item android:title="@string/order_history"
+        android:id="@+id/orderHistory"/>
+    <item android:title="@string/faqs"
+        android:id="@+id/faq"/>
+    <item android:title="@string/log_out"
+        android:id="@+id/logout"/>
+</menu>

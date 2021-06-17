@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">FoodApp</string>
+    <string name="mobileNumber">mobileNumber</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dashboard">dashboard</string>
+    <string name="Dashboard">Dashboard</string>
+    <string name="myprofile">MyProfile</string>
+    <string name="favourites">Favourites</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="log_out">log out</string>
+    <string name="favouties">Favouties</string>
+    <string name="dashboardfrag">DashboardFrag</string>
+    <string name="food_app">Food App</string>
+</resources>
